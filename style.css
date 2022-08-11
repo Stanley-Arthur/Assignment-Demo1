@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif,"poppins";
+}
+body{
+    background-color: #faf3f3;
+}
+.main-card{
+    width: 700px;
+    display: flex;
+    padding-top: 80px ;
+    box-shadow: 0 0 5px 10px rgba(20, 20, 20, 0.1);
+    margin-top: 50px;
+    justify-content: center;
+    
+}
+.left-section{
+    width: 450px;
+    margin-bottom:50px ;
+    
+}
+.left-section img{
+    width:100%;
+}
+.right-section{
+    width: 200px;
+   
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+    padding-top: 20px;
+    margin-bottom:50px ;
+    
+}
+section{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.right-section h2{
+    color: green;
+    font-weight:bold ;
+    margin: 5px 0;
+    cursor: pointer;
+
+} 
+.right-section p{
+    color:rgb(54, 53, 53);
+}
+.right-section h1{
+    font-weight: bold;
+    display: inline-block;
+}
+.right-section button{
+    background-color: green;
+    border: none;
+    padding: 10px 0;
+    border-radius: 5px;
+    color: white;
+    margin-top: 25px;
+    cursor: pointer;
+}
+button:active{
+    opacity: 0.05;
+}
+button:hover{
+    background-color: rgb(122, 245, 122);
+    color: white;
+    transform: 0.015s;
+}
+.small{
+    font-size: 0.5px;
+    color: rgb(138, 132, 132);
+    margin-bottom: 10px;
+}
+h1{
+    margin-bottom: 20px;
+}
+.price{
+    text-decoration:line-through ;
+    
+}
+.class{
+    display: flex;
+    align-items: center;
+}
+span{
+    color: green;
+}
+
